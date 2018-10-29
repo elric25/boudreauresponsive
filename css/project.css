@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch|IBM+Plex+Mono|PT+Sans');
+/* You must use a DIFFERENT FONT THAT THIS ONE as your webfont */
+
+/*************************************************
+            DEFAULTS
+*************************************************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+html{
+    font-size: 16px;
+    font-family:Chakra petch, IBM Plex Mono, Segoe Print;
+    /* change this font stack to your own choices */
+    line-height: 1.5;
+    background-image: linear-gradient(to bottom, hsl(0,0%,100%), hsl(0,0%,50%));
+}
+p{
+
+}
+a{
+
+}
+ul{
+
+}
+ol{
+
+}
+li{
+
+}
+img{
+
+}
+
+/*************************************************
+            HEADER
+*************************************************/
+header{
+    padding:1rem 2rem;
+}
+header > h1{
+
+}
+header > h2{
+
+}
+/*************************************************
+            NAVMENU
+*************************************************/
+nav{
+    padding:.5rem 1rem;
+    display: flex;
+    justify-content:space-around;
+}
+nav > a,
+nav > a:visited,
+nav > a:link{
+
+}
+nav > a:active,
+nav > a:focus,
+nav > a:hover{
+
+}
+
+/*************************************************
+            MAIN CONTENT
+*************************************************/
+main{
+    padding:1rem 2rem;
+}
+section{
+}
+section p{
+}
+section p img{
+  margin-left: auto;
+  /* margin-right: auto; */
+  width: 30%;
+  height: 30%;
+
+
+}
+
+/*************************************************
+            FOOTER
+*************************************************/
+footer{
+    padding:1rem 2rem;
+    background-color: hsl(0, 0%, 75%);
+}
+.foot nav{
+
+}
+.foot section{
+
+}
+.foot dl{
+
+}
+.foot dt{
+
+}
+.foot dd{
+
+}
+.foot dd a,
+.foot dd a:visited{
+
+}
+.foot dd a:active,
+.foot dd a:focus,
+.foot dd a:hover{
+
+}
+/*************************************************
+            MEDIA QUERIES for layout
+*************************************************/
+@media (max-width: 599px){
+  section p img{
+    width: 50%;
+    height: 50%;
+  }
+}
+@media (min-width: 600px) and (max-width:999px){
+html{
+  font-style: italic;
+}
+}
+@media (min-width: 1000px){
+  html{
+    font-weight: bold;
+  }
+}
